@@ -1,0 +1,95 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+body{
+    font-family: Quicksand,sans-serif;
+    background-color: rgb(0, 0, 0);
+    color: white;
+}
+.nav{
+    display:flex;
+}
+.navMenu  ul {
+    display: flex;
+    margin-top: 4%;
+    list-style-type: none;
+}
+.navMenu li{
+    margin-left: 50px;
+    font-size: 20px;
+    font-weight: bold;
+    cursor: pointer;
+}
+.search_bar{
+    display:flex;
+}
+.search_bar input {
+    border: none;
+    background-color: rgb(255, 255, 255);
+    width: 970px;
+    height: 40px;
+    margin-left: 2%;
+    padding-left: 10px;
+    font-weight: 500;
+}
+.search_bar button{
+    width: 50px;
+    height: 40px;
+    border: none;
+    background-color: black;
+    border: 1px solid white ;
+}
+#giphy{
+    width: auto;
+    margin-top: 20px;
+    margin-left: 1.5%;
+}
+#giphy img{
+    margin-left: 5px;
+    margin-top: 5px;
+    width: 200px;
+    height: 200px
+}
+#logo{
+    cursor: pointer;
+}
+#giphyS{
+    width: auto;
+    margin-top: 20px;
+    margin-left: 1.5%;
+    display: none;
+}
+#giphyS img{
+    margin-left: 5px;
+    margin-top: 5px;
+    width: 200px;
+    height: 200px
+}
+.Gcontainer{
+    max-width: 1050px;
+    display: inline-block;
+    width: 100%;
+    height: auto;
+}
+#categorie{
+    position: relative;
+}
+#categorie:hover .categorieBoxDown{
+   display: block;
+}
+
+.categorieBoxDown{
+    display: none;
+    position: absolute;
+    background-color: rgba(255, 255, 255, 0.938);
+    color: black;
+    width: 1030px;
+    height: 200px;
+    left: -7910%;
+   
+}
+.categorieBoxDown:hover{
+    display:block;
+}
